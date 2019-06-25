@@ -1,0 +1,13 @@
+[package]
+name = "tokio-test-runtime"
+version = "0.1.0"
+authors = ["Geoff Shannon <geoffpshannon@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1"
+tokio = "0.1.7"
+tokio-current-thread = "0.1"
+tokio-executor = "0.1"
+tokio-reactor = "0.1"
+tokio-timer = "0.2"
